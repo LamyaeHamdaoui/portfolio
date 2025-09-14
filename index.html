@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon porfolio </title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ======================= accueil ============================-->
+<div class="main">
+<nav>
+  <!-- Icône pour ouvrir le menu -->
+  <img src="img/menu.png" alt="Ouvrir menu" class="menu-icon">
+
+  <!-- Menu latéral avec l’icône pour le fermer à gauche -->
+  <ul class="nav-list">
+    <img src="img/multiplication.png" alt="Fermer menu" class="close-icon">
+    <li><a href="#main">Accueil</a></li>
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#competences">Compétences</a></li>
+    <li><a href="#projets">Projets</a></li>
+    <li><a href="#certificats">Certificats</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+    <div class="info">
+        <h1 class="site-title"> HAMDAOUI Lamyae  </h1>
+        <h3> <span>S</span>oftware <span>E</span>ngineer </h3>
+        <h3> Je suis étudiante en 1 année du Cycle d’Ingénieur,
+          <br>en génie informatique, à l’ENSAO.
+        </h3>
+        <a href="doc/cv.pdf" download> télécharger cv     </a>
+    </div>
+</div>
+  <!-- ======================= about ============================-->
+  <div id="about">
+        <div class="row">
+            <div class="about-col-2">
+                <h1 class="sub-title"> A propos de moi </h1>
+                <p >Étudiante en première année du cycle d’ingénieur en génie informatique à l’École Nationale des Sciences Appliquées d’Oujda, je suis passionnée par le développement informatique, les systèmes intelligents et les nouvelles technologies.<!-- Curieuse et déterminée, j’aime relever des défis techniques et approfondir mes connaissances à travers des projets concrets. Je m’investis pleinement dans mon apprentissage, en combinant rigueur, esprit d’analyse et créativité, avec l’ambition de construire une carrière enrichissante dans le domaine de l’ingénierie informatique--></p>
+                
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Education')"> Education </p>
+                <p class="tab-links" onclick="opentab('Compétences')"> Qualités </p>
+                <p class="tab-links" onclick="opentab('Expériences')"> Activités </p>
+               </div>
+
+               <div class="tab-contents active-tab" id="Education">
+                <ul>
+                  <li><span>2024-2025 </span><br>  première année du Cycle d’Ingénieur, en Génie Informatique </li>
+                  <li><span>2022- 2024 </span><br>  Cycle Préparatoire, à L’Ecole Nationale des Sciences Appliquées d’Oujda </li>
+                  <li><span>2021-2022 </span><br>Baccalauréat en « Sciences Physiques », au Lycée EL FATH, Taourirt </li>
+                </ul>
+               </div>
+
+             <div class="tab-contents" id="Compétences">
+             <ul>
+              <li>Communication </li>
+              <li>Responsabilité</li>
+              <li>Discipline </li>
+              <li>Travail en équipe</li>
+              <li>Gestion du temps et du stress</li>
+             </ul>
+            </div>
+
+             <div class="tab-contents" id="Expériences">
+             <ul>
+              <li><span>Club Altruisme</span><br>
+                Membre actif dans le club ALTRUISME à l’ENSAO (cellule de formation et cellule AL-MASJED) <br>
+                Organisation d’un événement "Al Maqha El Fikri"
+              </li>
+              <li><span>Club Génie Informatique</span><br>
+                Membre actif dans le club génie INFORMATIQUE à l’ENSAO (cellule de rédaction) <br>
+                Organisation de la Journée Informatique – 4ᵉ édition
+              </li>
+             </ul>
+           </div>
+  </div>
+ </div>
+</div> 
+ 
+ <!-- ======================= competences  ============================-->
+  <div id="competences">
+    <div class="containerComp">
+        <h1 class="sub-title titre-aligné" > Mes Compétences </h1>
+        <div class="competences-list">
+             <div>
+             <h2>HTML </h2>
+             <img src="img/html.png" >
+             </div>
+      
+             <div>
+             <h2>css </h2>
+             <img src="img/css.png" >
+             </div>
+    
+             <div>
+             <h2>js </h2>
+             <img src="img/js.png" >
+             </div>
+
+              <div>
+             <h2>python </h2>
+             <img src="img/python.png" >
+             </div>
+
+              <div>
+             <h2>c </h2>
+             <img src="img/c.png" >
+             </div>
+
+              <div>
+             <h2>c++ </h2>
+             <img src="img/c++.png" >
+             </div>
+
+               <div>
+             <h2>java </h2>
+             <img src="img/java.png" >
+             </div>
+
+               <div>
+             <h2>Reseau informatique</h2>
+             <img src="img/reseau.png" >
+             </div>
+
+              <div>
+             <h2>php</h2>
+             <img src="img/php.png" >
+             </div>
+
+             <div>
+             <h2>SQL</h2>
+             <img src="img/sql.png" >
+             </div>
+
+             <div>
+             <h2> Matlab</h2>
+             <img src="img/matlab.png" >
+             </div>
+        </div>
+    </div>
+  </div>
+  <!-- ========================== projets===================-->
+<section id="projets" class="section">
+    <h1 class="section-title titre-aligné">Mes Projets</h1>
+
+    <div class="projet">
+        <img src="img/prj1.png" alt="MemoPharma" class="projet-img">
+        <div class="projet-content">
+            <h3>💊 MemoPharma</h3>
+            <p>Application JavaFX pour le suivi des traitements médicaux, gestion des patients, des rendez-vous et des prescriptions via une base de données intégrée.</p>
+            <div class="projet-links">
+                <a href="https://github.com/ton-utilisateur/MemoPharma" target="_blank" class="btn-projet">🔗 GitHub</a>
+                <a href="videos/MemoPharmaApp.mp4" target="_blank" class="btn-projet">🎥 Vidéo</a>
+            </div>
+        </div>
+    </div>
+    <div class="projet">
+    <img src="img/prj2.png" alt="Library Manager" class="projet-img">
+    <div class="projet-content">
+        <h3>📚 MyLib</h3>
+        <p>Application Python avec interface Tkinter pour gérer les livres, les membres, les emprunts/retours, les statistiques, et l’historique complet de la bibliothèque.</p>
+        <div class="projet-links">
+            <a href="https://github.com/ton-utilisateur/LibraryManager" target="_blank" class="btn-projet">🔗 GitHub</a>
+            <a href="videos/MyLibApp.mp4" target="_blank" class="btn-projet">🎥 Vidéo</a>
+        </div>
+    </div>
+</div>
+<div class="projet">
+    <img src="img/prj3.png" alt="Parc Auto VBA" class="projet-img">
+    <div class="projet-content">
+        <h3>🚗 Gestion Parc Auto</h3>
+        <p>Application développée sous Microsoft Access avec VBA. Elle permet de gérer les véhicules, les vidanges, les visites techniques, les affectations et les statistiques.</p>
+        <div class="projet-links">
+            <a href="https://github.com/ton-utilisateur/ParcAutoVBA" target="_blank" class="btn-projet">🔗 GitHub</a>
+            <a href="videos/parc.mp4" target="_blank" class="btn-projet">🎥 Vidéo</a>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+  <!-- ========================== certificats ===================-->
+<div id="certificats">
+  <div class="containerCertif">
+    <h1 class="sub-title titre-aligné"> Mes Certificats </h1>
+    <div class="certificat-list">
+      <div class="certificat">
+        <img src="img/certif1.jpg" alt="Certificat Introduction JAVA">
+        <h3>Introduction JAVA</h3>
+        <p>Certificat obtenu sur SoloLearn</p>
+        <a href="img/certif1.jpg" target="_blank"><img src="img/link.png"></a>
+      </div>
+
+      <div class="certificat">
+        <img src="img/certif2.jpg" alt="Certificat Intermediare JAVA">
+        <h3>Intermediare JAVA</h3>
+        <p>Certificat obtenu sur SoloLearn</p>
+        <a href="img/certif2.jpg" target="_blank"><img src="img/link.png"></a>
+      </div>
+
+      <div class="certificat">
+        <img src="img/certif3.png" alt="Certificat Introduction PYTHON">
+        <h3>Introduction PYTHON</h3>
+        <p>Certificat obtenu sur SoloLearn</p>
+        <a href="img/certif3.png" target="_blank"><img src="img/link.png"></a>
+      </div>
+
+      <div class="certificat">
+        <img src="img/certif4.jpg" alt="Certificat html-css">
+        <h3>HTML-CSS</h3>
+        <p>Certificat obtenu sur Udemy</p>
+        <a href="img/certif4.jpg" target="_blank"><img src="img/link.png"></a>
+      </div>
+
+      <div class="certificat">
+        <img src="img/certif5.jpg" alt="Certificat MYsql">
+        <h3>MySql</h3>
+        <p>Certificat obtenu sur Udemy</p>
+        <a href="img/certif5.jpg" target="_blank"><img src="img/link.png"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================== contact  ===================-->
+ <div id="contact">
+    <div class="containerCtc">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title titre-aligné"> Contactez-moi </h1>
+               <p><img src="img/mail.png" >lamyae.hamdaoui.23@ump.ac.ma</p>
+               <p><img src="img/tel.png" >06 25 45 46 09</p>
+               <p><img src="img/adress.png" >MLY ALI CHARIF TAOURIRT</p>
+               <div class="social-icons">
+                 <a href="https://www.linkedin.com/in/lamyae-hamdaoui/"><img src="img/linkedin.svg"></a>
+                 <a href="https://github.com/LamyaeHamdaoui"><img src="img/git.svg"></a>
+               </div>
+               <a href="doc/cv.pdf"  download class="btn btn2"> télécharger CV </a>
+            </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet" method="POST" action="https://script.google.com/macros/s/AKfycbx4qbfqOTRT3NWzTFxsyrJAhJ8SX2QS6vgEniNz4j0SUAuc9AGeWJzTJlFdoPmcKxw/exec">
+                    <input type="text" name="Name" placeholder="Votre Nom" required>
+                    <input type="email" name="Email" placeholder="votre email" required>
+                    <textarea name="Message" rows="6" placeholder="Votre Message" ></textarea>
+                    <button type="submit" class="btn btn2"> Envoyer </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p> copyright Lamyae . Made with🤍by easy portfolio </p>
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========================== Script 1 — ouverture des onglets  ===================-->
+ <script> 
+   var tablinks = document.getElementsByClassName("tab-links")
+   var tabcontents = document.getElementsByClassName("tab-contents")
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+     for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+   }
+ </script>
+
+ <!-- ========================== Script 2 — envoi du formulaire (AJAX vers Google Script)  ===================-->
+
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx4qbfqOTRT3NWzTFxsyrJAhJ8SX2QS6vgEniNz4j0SUAuc9AGeWJzTJlFdoPmcKxw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message envoyer avec succes"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+   } )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+<!-- ========================== Script 3 — menu mobile (ouvrir / fermer)  ===================-->
+
+<script>
+  const menuIcon = document.querySelector('.menu-icon');
+  const navList = document.querySelector('.nav-list');
+  const closeIcon = document.querySelector('.close-icon');
+
+  // Ouvrir le menu
+  menuIcon.addEventListener('click', () => {
+    navList.classList.add('active');
+  });
+
+  // Fermer le menu
+  closeIcon.addEventListener('click', () => {
+    navList.classList.remove('active');
+  });
+</script>
+
+
+
+</body>
+</html>
