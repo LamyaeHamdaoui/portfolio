@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mon porfolio </title>
+    <title> Hamdaoui Lamyae | Portfolio – Étudiante Ingénieure Informatique </title>
+    <meta name="description" content="Portfolio de Lamyae Hamdaoui, étudiante ingénieure en génie informatique spécialisée en développement logiciel, Java, Python, Web et Mobile.">
+    <meta name="author" content="Lamyae Hamdaoui">
+    <meta name="keywords" content="portfolio, développeuse, ingénieure informatique, Java, Python, web, mobile, ENSAO">
     <link  rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <!-- ======================= accueil ============================-->
-<div class="main">
+<div class="container">
+<div class="main" id="main">
 <nav>
   <!-- Icône pour ouvrir le menu -->
   <img src="img/menu.png" alt="Ouvrir menu" class="menu-icon">
@@ -27,23 +33,24 @@
 
     <div class="info">
         <h1 class="site-title"> HAMDAOUI Lamyae  </h1>
-        <h3> <span>S</span>oftware <span>E</span>ngineer </h3>
-        <h3> Je suis étudiante en 2 année du Cycle d’Ingénieur,
+        <h3> <span>C</span>omputer <span>E</span>ngineering <span>S</span>tudent</h3>
+        <h3> Étudiante en 2ᵉ année du cycle d’ingénieur,
           <br>en génie informatique, à l’ENSAO.
         </h3>
         <a href="doc/HAMDAOUI _Lamyae_cv.pdf" download> télécharger cv     </a>
     </div>
 </div>
+
+</div>
   <!-- ======================= about ============================-->
-  <div id="about">
-        <div class="row">
-            <div class="about-col-2">
-                <h1 class="sub-title"> A propos de moi </h1>
-                <p >Étudiante en deuxième  année du cycle d’ingénieur en génie informatique à l’École Nationale des Sciences Appliquées d’Oujda, je suis passionnée par le développement informatique, les systèmes intelligents et les nouvelles technologies.<!-- Curieuse et déterminée, j’aime relever des défis techniques et approfondir mes connaissances à travers des projets concrets. Je m’investis pleinement dans mon apprentissage, en combinant rigueur, esprit d’analyse et créativité, avec l’ambition de construire une carrière enrichissante dans le domaine de l’ingénierie informatique--></p>
+   <div class="container">
+        <div class="about-col-2"  id="about">
+                <h1 class="sub-title titre-aligné"> A propos de moi </h1>
+                <p>Étudiante en deuxième année du cycle d’ingénieur en Génie Informatique à l’ENSAO, je m’intéresse particulièrement au développement logiciel et aux technologies modernes. Actuellement à la recherche d’un stage d’application à partir de juillet 2026 pour une durée de deux mois, je souhaite mettre en pratique mes connaissances, contribuer à des projets concrets et enrichir mon expérience professionnelle.</p>
                 
                <div class="tab-titles">
                 <p class="tab-links active-link" onclick="opentab('Education')"> Education </p>
-                <p class="tab-links" onclick="opentab('Compétences')"> Qualités </p>
+                <p class="tab-links" onclick="opentab('Qualites')"> Qualités </p>
                 <p class="tab-links" onclick="opentab('Expériences')"> Activités </p>
                </div>
 
@@ -55,15 +62,22 @@
                 </ul>
                </div>
 
-             <div class="tab-contents" id="Compétences">
-             <ul>
-              <li>Communication </li>
-              <li>Responsabilité</li>
-              <li>Discipline </li>
-              <li>Travail en équipe</li>
-              <li>Gestion du temps et du stress</li>
-             </ul>
-            </div>
+            <div class="tab-contents" id="Qualites">
+  <ul>
+    <li>Bonne capacité de communication et d’expression.
+    </li>
+    <li>Sens des responsabilités et esprit professionnel.
+    </li>
+    <li>Discipline et organisation dans le travail.
+    </li>
+    <li>Esprit d’équipe et collaboration efficace.
+    </li>
+    <li>Bonne gestion du temps et du stress.
+    </li>
+  </ul>
+</div>
+
+
 
              <div class="tab-contents" id="Expériences">
              <ul>
@@ -79,129 +93,262 @@
            </div>
   </div>
  </div>
-</div> 
- 
  <!-- ======================= competences  ============================-->
+  <!-- ======================= competences  ============================-->
+<div class="container">
   <div id="competences">
     <div class="containerComp">
-        <h1 class="sub-title titre-aligné" > Mes Compétences </h1>
-        <div class="competences-list">
-             <div>
-             <h2>HTML </h2>
-             <img src="img/html.png" >
-             </div>
-      
-             <div>
-             <h2>css </h2>
-             <img src="img/css.png" >
-             </div>
-    
-             <div>
-             <h2>js </h2>
-             <img src="img/js.png" >
-             </div>
+      <h1 class="sub-title titre-aligné">Mes Compétences</h1>
+      <div class="competences-list">
 
-              <div>
-             <h2>python </h2>
-             <img src="img/python.png" >
-             </div>
-
-              <div>
-             <h2>c </h2>
-             <img src="img/c.png" >
-             </div>
-
-              <div>
-             <h2>c++ </h2>
-             <img src="img/c++.png" >
-             </div>
-
-               <div>
-             <h2>java </h2>
-             <img src="img/java.png" >
-             </div>
-
-               <div>
-             <h2>Reseau informatique</h2>
-             <img src="img/reseau.png" >
-             </div>
-
-              <div>
-             <h2>php</h2>
-             <img src="img/php.png" >
-             </div>
-
-             <div>
-             <h2>SQL</h2>
-             <img src="img/sql.png" >
-             </div>
-
-             <div>
-             <h2> Matlab</h2>
-             <img src="img/matlab.png" >
-             </div>
-
-              <div>
-             <h2> C#</h2>
-             <img src="img/c-sharp.png" >
-             </div>
-
-              <div>
-             <h2> Synmfony</h2>
-             <img src="img/symfony (3).png" >
-             </div>
-
-             <div>
-             <h2> React</h2>
-             <img src="img/react_icon.png" >
-             </div>
-
+        <!-- LANGAGES -->
+        <div>
+          <h2>Python</h2>
+          <img src="img/python.png" alt="Python">
         </div>
+        <div>
+          <h2>Java</h2>
+          <img src="img/java.png" alt="Java">
+        </div>
+        <div>
+          <h2>C</h2>
+          <img src="img/c.png" alt="C">
+        </div>
+        <div>
+          <h2>C++</h2>
+          <img src="img/c++.png" alt="C++">
+        </div>
+        <div>
+          <h2>C#</h2>
+          <img src="img/c-sharp.png" alt="C#">
+        </div>
+        <div>
+          <h2>PHP</h2>
+          <img src="img/php.png" alt="PHP">
+        </div>
+        <div>
+          <h2>JavaScript</h2>
+          <img src="img/js.png" alt="JavaScript">
+        </div>
+        <div>
+          <h2>HTML</h2>
+          <img src="img/html.png" alt="HTML">
+        </div>
+        <div>
+          <h2>CSS</h2>
+          <img src="img/css.png" alt="CSS">
+        </div>
+
+        <!-- FRAMEWORKS & LIBS -->
+        <div>
+          <h2>Symfony</h2>
+          <img src="img/symfony (3).png" alt="Symfony">
+        </div>
+        <div>
+          <h2>React</h2>
+          <img src="img/react_icon.png" alt="React">
+        </div>
+        <div>
+          <h2>Spring Boot</h2>
+          <img src="img/springboot.png" alt="Spring Boot">
+        </div>
+        <div>
+          <h2>Tailwind CSS</h2>
+          <img src="img/tailwind.png" alt="Tailwind CSS">
+        </div>
+
+        <!-- BASES DE DONNÉES & MODÉLISATION -->
+        <div>
+          <h2>SQL / PLSQL</h2>
+          <img src="img/sql.png" alt="SQL / PLSQL">
+        </div>
+        <div>
+          <h2>XML</h2>
+          <img src="img/xml.png" alt="XML">
+        </div>
+
+        <!-- RESEAUX -->
+        <div>
+          <h2>Réseaux</h2>
+          <img src="img/reseau.png" alt="Réseaux">
+        </div>
+
+        <!-- DEVOPS -->
+        <div>
+          <h2>Git</h2>
+          <img src="img/git.png" alt="Git">
+        </div>
+        <div>
+          <h2>GitHub</h2>
+          <img src="img/github.png" alt="GitHub">
+        </div>
+        <div>
+          <h2>Linux</h2>
+          <img src="img/linux.png" alt="Linux">
+        </div>
+       
+
+
+      </div>
     </div>
   </div>
-  <!-- ========================== projets===================-->
-<section id="projets" class="section">
-    <h1 class="section-title titre-aligné">Mes Projets</h1>
+</div>
 
-    <div class="projet">
-        <img src="img/prj1.png" alt="MemoPharma" class="projet-img">
-        <div class="projet-content">
-            <h3>💊 MemoPharma</h3>
-            <p>Application JavaFX pour le suivi des traitements médicaux, gestion des patients, des rendez-vous et des prescriptions via une base de données intégrée.</p>
-            <div class="projet-links">
-                <a href="https://github.com/NissrineELMNIAI/TreatmentMedical-app" target="_blank" class="btn-projet">🔗 GitHub</a>
-                <a href="https://drive.google.com/file/d/1fLLCK2eTjwRVfJ58WyYuR1BlNBIj3w-y/view?usp=drive_link" target="_blank" class="btn-projet">🎥 Demo</a>
-            </div>
-        </div>                   
-    </div>
-    <div class="projet">
-    <img src="img/prj2.png" alt="Library Manager" class="projet-img">
+  
+
+  <!-- ========================== projets===================-->
+  <div class="container">
+<section id="projets" class="section">
+  <h1 class="section-title titre-aligné">Mes Projets</h1>
+
+  <!-- ===== Projet 1 : MemoPharma ===== -->
+  <div class="projet">
+    <img src="img/prj1.png" alt="MemoPharma" class="projet-img">
     <div class="projet-content">
-        <h3>📚 MyLib</h3>
-        <p>Application Python avec interface Tkinter pour gérer les livres, les membres, les emprunts/retours, les statistiques, et l’historique complet de la bibliothèque.</p>
-        <div class="projet-links">
-            <a href="https://github.com/LamyaeHamdaoui/pythonProject" target="_blank" class="btn-projet">🔗 GitHub</a>
-            <a href="https://drive.google.com/file/d/1ZmmS8fLWPAV1fCcJzaW4mptjP7v2yYvk/view?usp=drive_link" target="_blank" class="btn-projet">🎥 Demo</a>
-        </div>
+      <h3>💊 MemoPharma</h3>
+
+      <p>
+        Application JavaFX pour le suivi des traitements médicaux, la gestion des patients,
+        des rendez-vous et des prescriptions via une base de données intégrée.
+      </p>
+
+      <p class="tech-stack">
+        <strong>Technologies :</strong> Java, JavaFX, MySQL, MVC
+      </p>
+
+      <div class="projet-links">
+        <a href="https://github.com/NissrineELMNIAI/TreatmentMedical-app" target="_blank" class="btn-projet">🔗 GitHub</a>
+        <a href="https://drive.google.com/file/d/1fLLCK2eTjwRVfJ58WyYuR1BlNBIj3w-y/view" target="_blank" class="btn-projet">🎥 Demo</a>
+      </div>
     </div>
-</div>
+  </div>
+
+  <!-- ===== Projet 2 : MyLib ===== -->
+  <div class="projet">
+    <img src="img/prj2.png" alt="MyLib" class="projet-img">
+    <div class="projet-content">
+      <h3>📚 MyLib</h3>
+
+      <p>
+        Application Python avec interface graphique Tkinter permettant la gestion des livres,
+        des membres, des emprunts et retours, ainsi que des statistiques et de l’historique
+        de la bibliothèque.
+      </p>
+
+      <p class="tech-stack">
+        <strong>Technologies :</strong> Python, Tkinter, SQLite
+      </p>
+
+      <div class="projet-links">
+        <a href="https://github.com/LamyaeHamdaoui/pythonProject" target="_blank" class="btn-projet">🔗 GitHub</a>
+        <a href="https://drive.google.com/file/d/1ZmmS8fLWPAV1fCcJzaW4mptjP7v2yYvk/view" target="_blank" class="btn-projet">🎥 Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Projet 3 : Gestion Parc Auto ===== -->
+  <div class="projet">
+    <img src="img/prj3.png" alt="Gestion Parc Auto" class="projet-img">
+    <div class="projet-content">
+      <h3>🚗 Gestion Parc Auto</h3>
+
+      <p>
+        Application développée sous Microsoft Access avec VBA pour le suivi des véhicules,
+        la gestion des vidanges, des visites techniques, des affectations et la génération
+        de statistiques.
+      </p>
+
+      <p class="tech-stack">
+        <strong>Technologies :</strong> Microsoft Access, VBA, SQL
+      </p>
+
+      <div class="projet-links">
+        <a href="https://github.com/ton-utilisateur/ParcAutoVBA" target="_blank" class="btn-projet">🔗 GitHub</a>
+        <a href="https://drive.google.com/file/d/1YOPDnwxqzIx_97DynPBGDQMdPk_zOMoD/view" target="_blank" class="btn-projet">🎥 Demo</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ===== Projet 4 : Application Web de Gestion des ateliers===== -->
 <div class="projet">
-    <img src="img/prj3.png" alt="Parc Auto VBA" class="projet-img">
-    <div class="projet-content">
-        <h3>🚗 Gestion Parc Auto</h3>
-        <p>Application développée sous Microsoft Access avec VBA. Elle permet de gérer les véhicules, les vidanges, les visites techniques, les affectations et les statistiques.</p>
-        <div class="projet-links">
-            <a href="https://github.com/ton-utilisateur/ParcAutoVBA" target="_blank" class="btn-projet">🔗 GitHub</a>
-            <a href="https://drive.google.com/file/d/1YOPDnwxqzIx_97DynPBGDQMdPk_zOMoD/view?usp=drive_link" target="_blank" class="btn-projet">🎥 Demo</a>
-        </div>
+  <img src="img/prj6.png" alt="Application Web de Gestion" class="projet-img">
+  <div class="projet-content">
+    <h3>🌐 Application Web de Gestion des ateliers </h3>
+
+    <p>
+  Application web permettant la création et l’inscription à des ateliers de formation
+  avec authentification sécurisée et interface responsive.
+</p>
+
+    <p class="tech-stack">
+      <strong>Technologies :</strong> PHP, Symfony, Twig, MySQL, MVC
+    </p>
+
+    <div class="projet-links">
+      <a href="https://github.com/ton-utilisateur/symfony-project" target="_blank" class="btn-projet">🔗 GitHub</a>
+      <a href="https://drive.google.com/file/d/13fe3dAtDT7RI4LTv-BrGFlCWRY39bYhq/view?usp=drive_link" target="_blank" class="btn-projet">🎥 Demo</a>
+
     </div>
+  </div>
 </div>
+
+
+<!-- ===== Projet 5 : Application Mobile de Gestion des RH ===== -->
+<div class="projet">
+  <img src="img/rh.png" alt="Application Mobile de Gestion des RH" class="projet-img">
+  <div class="projet-content">
+    <h3>📱 Application Mobile de Gestion des RH</h3>
+
+    <p>
+  Application mobile Android pour la gestion des ressources humaines,
+  incluant les présences, les congés, les réunions et les profils utilisateurs.
+</p>
+
+    <p class="tech-stack">
+      <strong>Technologies :</strong> Java, XML, Firebase, Android Studio
+    </p>
+
+    <div class="projet-links">
+      <!-- Ajoute GitHub si disponible -->
+      <a href="https://github.com/ton-utilisateur/mobile-rh-app" target="_blank" class="btn-projet">🔗 GitHub</a>
+      <a href="https://drive.google.com/file/d/13bP2j34jvdao1b2uy2z81LiIhXxhEAzS/view?usp=drive_link" target="_blank" class="btn-projet">🎥 Demo</a>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- ===== Projet 6 : Content-Based Image Retrieval (CBIR) ===== -->
+<div class="projet">
+  <img src="img/image.png" alt="CBIR System" class="projet-img">
+  <div class="projet-content">
+    <h3>🖼️ Content-Based Image Retrieval (CBIR)</h3>
+
+    <p>
+       Système de recherche d’images par le contenu permettant de retrouver des images similaires
+       à partir d’une image requête en se basant sur les caractéristiques visuelles.
+    </p>
+
+    <p class="tech-stack">
+      <strong>Technologies :</strong> Python, OpenCV, NumPy, Matplotlib, Tkinter
+    </p>
+
+    <div class="projet-links">
+      <a href="https://github.com/ton-utilisateur/cbir-project" target="_blank" class="btn-projet">🔗 GitHub</a>
+      <a href="https://drive.google.com/file/d/1fLLCK2eTjwRVfJ58WyYuR1BlNBIj3w-y/view" target="_blank" class="btn-projet">🎥 Demo</a>
+    </div>
+  </div>
+</div>
+
+
 
 </section>
 
-
+  </div>
 
   <!-- ========================== certificats ===================-->
+   <div class="container">
 <div id="certificats">
   <div class="containerCertif">
     <h1 class="sub-title titre-aligné"> Mes Certificats </h1>
@@ -258,9 +405,12 @@
     </div>
   </div>
 </div>
+   </div>
+
 
 <!-- ========================== contact  ===================-->
- <div id="contact">
+ <div class="container">
+<div id="contact">
     <div class="containerCtc">
         <div class="row">
             <div class="contact-left">
@@ -272,7 +422,6 @@
                  <a href="https://www.linkedin.com/in/lamyae-hamdaoui/"><img src="img/linkedin.svg"></a>
                  <a href="https://github.com/LamyaeHamdaoui"><img src="img/git.svg"></a>
                </div>
-               <a href="doc/HAMDAOUI _Lamyae_cv.pdf"  download class="btn btn2"> télécharger CV </a>
             </div>
               <div class="contact-right">
                 <form name="submit-to-google-sheet" method="POST" action="https://script.google.com/macros/s/AKfycbx4qbfqOTRT3NWzTFxsyrJAhJ8SX2QS6vgEniNz4j0SUAuc9AGeWJzTJlFdoPmcKxw/exec">
@@ -290,6 +439,8 @@
         <p>© 2025 Lamyae Hamdaoui — Tous droits réservés.</p>
     </div>
  </div>
+ </div>
+ 
 
 
 
